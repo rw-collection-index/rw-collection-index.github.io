@@ -18,7 +18,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@shadcn/components/ui/p
 import { RwScrollableList, RwScrollableListItem } from "../other/RwScrollableList";
 import { RwAsset } from "../other/RwAsset";
 import { datasetRootHref, routeHref } from "../../routing/browserRouting";
-import { entryIdForPearl } from "../../routing/routes";
+import { defaultTranscriberName, entryIdForPearl } from "../../routing/routes";
 import { assetUrl } from "../../utils/assetUtils";
 
 const HIGHLIGHT_STYLE: React.CSSProperties = { outline: '2px solid rgba(255, 255, 255, 0.5)', borderRadius: '0.75rem' };
@@ -421,7 +421,7 @@ const LazyChapterGrid = React.memo(function LazyChapterGrid({
                                 isFoundInSave={saveFound.has(pearl.id)}
                                 unlockMode={unlockMode}
                                 renderReal={isVisible}
-                                entryUrl={routeHref({ datasetKey, entryId: entryIdForPearl(pearl, pearls), transcriberName: null, source: null })}
+                                entryUrl={routeHref({ datasetKey, entryId: entryIdForPearl(pearl, pearls), transcriberName: defaultTranscriberName(pearl), source: null })}
                             />
                         </div>
                     ))}

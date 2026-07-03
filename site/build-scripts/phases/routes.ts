@@ -27,6 +27,7 @@ import { phase } from '../lib/log';
 import type { RouteDescriptor } from '../../src/app/routing/routes';
 import {
     buildRoutePath,
+    defaultTranscriberName,
     entryIdForPearl,
     enumerateRoutes,
     parseRoutePath,
@@ -130,7 +131,7 @@ function buildDatasetNav(pearls: PearlData[], datasetKey: string, otherDatasets:
     ).join('');
     const entryLinks = pearls.map(pearl => {
         const entryId = entryIdForPearl(pearl, pearls);
-        const href = htmlAttrEscape(BASE + buildRoutePath({ datasetKey, entryId, transcriberName: null, source: null }));
+        const href = htmlAttrEscape(BASE + buildRoutePath({ datasetKey, entryId, transcriberName: defaultTranscriberName(pearl), source: null }));
         const label = htmlAttrEscape(pearl.metadata.name || entryId);
         return `<a href="${href}" style="${STATIC_NAV_LINK_STYLE}">${label}</a>`;
     }).join('');

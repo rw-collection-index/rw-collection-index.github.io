@@ -154,6 +154,12 @@ function effectiveNames(pearl: PearlData): string[] {
     return pearl.transcribers.map((t, i) => getEffectiveTranscriberName(pearl.transcribers, t.transcriber, i));
 }
 
+/** The effective name of a pearl's default (last) transcriber, or null if it has none. */
+export function defaultTranscriberName(pearl: PearlData): string | null {
+    const names = effectiveNames(pearl);
+    return names.length ? names[names.length - 1] : null;
+}
+
 // --- building paths --------------------------------------------------------
 
 /** Base-relative path (no source). Always leading slash; trailing slash when non-root. */
@@ -649,7 +655,8 @@ export function enumerateRoutes(datasetKey: string, pearls: PearlData[]): RouteD
 
     for (const pearl of pearls) {
         const names = effectiveNames(pearl);
-        const defaultTranscriber = names.length ? pearl.transcribers[pearl.transcribers.length - 1] : null;
+        const defaultName = defaultTranscriberName(pearl);
+        const defaultTranscriber = defaultName ? pearl.transcribers[pearl.transcribers.length - 1] : null;
 
         // The entry id is per-pearl and stable across all of its routes.
         // The transcriber lives in its own segment, not in the entry id.
@@ -661,9 +668,8 @@ export function enumerateRoutes(datasetKey: string, pearls: PearlData[]): RouteD
         // Each transcriber page owns distinct content and is its own canonical (below).
         // The bare entry renders the default (last) transcriber, so it is an alias that canonicalizes there rather than competing with it.
         // An entry with no transcribers has nothing to defer to, so it stays its own canonical.
-        const defaultTranscriberName = names.length ? names[names.length - 1] : null;
-        const defaultTranscriberPath = defaultTranscriberName
-            ? buildRoutePath({ datasetKey, entryId, transcriberName: defaultTranscriberName, source: null })
+        const defaultTranscriberPath = defaultName
+            ? buildRoutePath({ datasetKey, entryId, transcriberName: defaultName, source: null })
             : entryPath;
         routes.push({
             path: entryPath,
@@ -674,7 +680,7 @@ export function enumerateRoutes(datasetKey: string, pearls: PearlData[]): RouteD
             title: entryMeta.title,
             description: entryMeta.description,
             ogImage: ogImageForRoutePath(defaultTranscriberPath),
-            isCanonical: defaultTranscriberName === null,
+            isCanonical: defaultName === null,
             canonicalPath: defaultTranscriberPath,
         });
 
