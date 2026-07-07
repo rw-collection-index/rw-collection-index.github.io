@@ -1,15 +1,13 @@
 import { useEffect, useState } from 'react';
 
 export function useIsMobile() {
-    const [isMobile, setIsMobile] = useState(false);
+    // avoid a mobile/desktop layout swap and the resulting CLS once the effect below runs after first paint
+    const [isMobile, setIsMobile] = useState(() => window.innerWidth < 818);
 
     useEffect(() => {
         const checkIsMobile = () => {
             setIsMobile(window.innerWidth < 818);
         };
-
-        // initial
-        checkIsMobile();
 
         window.addEventListener('resize', checkIsMobile);
 

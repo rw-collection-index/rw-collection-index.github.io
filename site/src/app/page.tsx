@@ -224,14 +224,14 @@ export default function DialogueInterface() {
 
             <div className={cn("relative z-10 w-full max-w-[1400px] h-full", isMobile ? "" : "h-auto")}>
                 {error ? (
-                    <div className="flex items-center justify-center h-full min-h-[50vh]">
+                    <div className="flex items-center justify-center h-full min-h-[100dvh]">
                         <div className="text-center text-white p-6 bg-black/50 rounded-xl border border-white/20">
                             <h2 className="text-xl font-bold mb-2 text-red-400">Error Loading Data</h2>
                             <p>{error}</p>
                         </div>
                     </div>
                 ) : isLoading ? (
-                    <div className="flex items-center justify-center h-full min-h-[50vh]">
+                    <div className="flex items-center justify-center h-full min-h-[100dvh]">
                         <KarmaSpinner/>
                     </div>
                 ) : (
