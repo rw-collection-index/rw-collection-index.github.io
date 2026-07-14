@@ -12,6 +12,7 @@ import { SourceDecrypted } from './utils/speakers';
 import { generateTintedImage } from './utils/iconUtils';
 import { assetUrl } from './utils/assetUtils';
 import { buildRouteMetaFor, initTitleContext } from './routing/routes';
+import { MigrationNoticeDialog } from './components/other/MigrationNoticeDialog';
 
 // Lazy load UI components
 const PearlGrid = React.lazy(() => import('./components/PearlGrid/PearlGrid'));
@@ -221,6 +222,8 @@ export default function DialogueInterface() {
             }}
         >
             <div className="absolute inset-0 backdrop-blur-sm bg-black/30"/>
+
+            <MigrationNoticeDialog/>
 
             <div className={cn("relative z-10 w-full max-w-[1400px] h-full", isMobile ? "" : "h-auto")}>
                 {error ? (
