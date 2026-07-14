@@ -1,366 +1,366 @@
 {
   "dialogue-modded/Aqueducts/OA_centiporl.txt": {
-    "hash": "f5800cb0103aa07315e6c6e6e68fe53a8f647e2a3632faebbe5fd9b5c295e019",
+    "hash": "208f27d7d7d39c2800176390404f89c74bc2ed0dcf6cda1c4070e1bb1ed70b7b",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/Aqueducts/OA_deepporl.txt": {
-    "hash": "810b4a657bf1d0ef7dc7e52f7fa2f13e2549f1826536b50b177285f7bdc96291",
+    "hash": "25c59a1d7b2abd87bcdd6a736cf144653c54f8570734181bcd01ff1ad6ac9bef",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/Aqueducts/OA_highporl.txt": {
-    "hash": "e239aadc5d9139a1e24cdd033296762aa2d71574250f964c6b2b09a93fca86f8",
+    "hash": "21dadc9dbddb48b950e821ac5c06213753334c7cd2bf6752642994f04ff3add0",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ArchaicFacility/KF_Pearl_1.txt": {
-    "hash": "d6321d2dad2a37629e9c1dddee5e2b154bf56217c7eadf737aeddbb8f72ffb9e",
+    "hash": "38bdacf9785cd83193b10b7f78d22f2b357d4bc7c1bcd2422712aa8863c3ff7c",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ArchaicFacility/KF_Pearl_2.txt": {
-    "hash": "efe11be4a4db62ca3309c9c183c5b6eca72ba785cce403404d301f5278692e5e",
+    "hash": "6dd83998a7cea4ddb203c7b5bf39795dad2491aceb31736c52825cb00fa0c2b9",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/AshenBow/AshenBow_echo.txt": {
-    "hash": "842f334d030e18b8d59216074bcc04984dd26725d0cdfef04347d7bf205ee979",
+    "hash": "1d54596298e469441b9af99a8a981ca745a4688442d504533f20ca30331f0bbc",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/AshenBow/QL_Glacialcore.txt": {
-    "hash": "f9041a7aeeb66a0c12fb1bfe338367bca0408ed46b1eec6aa1d99425a6e36378",
+    "hash": "e7edf9aa7467dd86ac080aa09dc81c8e3ce08ec956b0a17cce124bf05d05c2ae",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/AshenBow/QL_Radioconnector.txt": {
-    "hash": "3cf941dd5e7bccc138e742ae7044c7c179b96c47244b56664832be6864b341f0",
+    "hash": "2d822f00bba0b4b018bc400e8044df66e6216d61206e6ce10fb691222bb1cd98",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/AshenBow/QL_Radiospiretop.txt": {
-    "hash": "47ab976cd8a630d473a28cff07a32f9139e2df32ac88715ded3b2e0e6bcc1045",
+    "hash": "d350365a4c45684e0fc4c2b6e7135684e796d8012fba97712bd77ec315ff84fa",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/AshenBow/QL_Spinebridge.txt": {
-    "hash": "36126ed739a96a5050e1bf0dfd0046f808085aa7ebca1fc6bbec362eb8dcd16f",
+    "hash": "3f8570570f85bd8ae0861dfda5674951e6989e98495fdcc8dc9270bbc041d24b",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/AuxiliaryIntake/IPLower.txt": {
-    "hash": "c3c581dca6b685041171022236de2743fb32d74d6e661858fecaa60ef50721ec",
+    "hash": "8d56df03f674fcd7fd713dca8c1bb7dcc242eb72bf08ede5fa45dfbef3acbefd",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/AuxiliaryIntake/IPUpper.txt": {
-    "hash": "12204356b5fa9dcdddbd891a0d74142a0bb2e3720dee3d688bbbc7c18f576b0e",
+    "hash": "8bba9d73a7bb633033894429a1aca084c18c99f45067e3c5ba574226502deb85",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/ChasingWind_echo.txt": {
-    "hash": "4c72f07d9609423644f9afef4f358abb0c5581f361ac5d2126e17e4541dfe144",
+    "hash": "316f6739d08c0b7a0d0c4f9f8f3b7ef9a19e13249e85e5b67f821ea4d46288f9",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Dialogue_artificer_{var--DialogueId}.txt": {
-    "hash": "a6b434d69e6e3679a8cb2b5997eb3bd75f98ed5d70c8e7ae41359965713a4455",
+    "hash": "a05acc56158a94da0c3d4505f7f0d43522b8282895a93a4750f69b8d6b78ac98",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Dialogue_generic_{var--DialogueId}.txt": {
-    "hash": "ef511264fd3c556f9049dfcefe11e011bc3182a29e9490953f79c394a881db40",
+    "hash": "ab1577daa3497f518ed9b49fa0d5aea64f5bf6fde1be581a1a5e8f09eef63fb6",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Dialogue_gourmand_{var--DialogueId}.txt": {
-    "hash": "22e2aea15f8a26a782d87e824166313fa09691928bc9d4778853d6d79db80d17",
+    "hash": "3c82fdb8caf5e97be3b8427e47e67e460d786d4493143f6dc5cccd0530a773ab",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Dialogue_hunter_{var--DialogueId}.txt": {
-    "hash": "13892b6d60d51b862a4af9253a15d5dfc83b50427d7b19ae30c5370229a54919",
+    "hash": "869d7a5d3c3022fb2a0b13d22269b0e905185a7d64e9eb48682a3766c67d70d4",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Dialogue_monk_{var--DialogueId}.txt": {
-    "hash": "c869e22301c209065f601c6063e2589a9e3a2f8b7bb174f6c509e7e816640b5b",
+    "hash": "ef39038f784a642ff8089a8eb7c791e644d89af1ff204637de3e2cab884b0b68",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Dialogue_rivulet_{var--DialogueId}.txt": {
-    "hash": "ffd64273966ae05723a71f9def622511b6b7406e2202d43d63f5e5598aff0d62",
+    "hash": "10b119b9233fe82098efdb6ef570a90db452d7a66f54e2aa8c98e4411558142c",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Dialogue_spear_{var--DialogueId}.txt": {
-    "hash": "8061d860589643f020379e2a998ddb1040802073a214402f2246b9f287397b84",
+    "hash": "e348a78a9f7da13b908f4307bdbbaf00834e52b0c31ffd6a217617c7ce909d70",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Dialogue_survivor_{var--DialogueId}.txt": {
-    "hash": "575dbcd5d005fe4875a47ab4352f113495eb75e7635c4ca6aa36d5e2356555be",
+    "hash": "52d43e6032de05efef1db57843eb2cbedc7ca253f7401b2fef6f50398b4b7406",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/CW_Moon_BigGoldenPearl.txt": {
-    "hash": "2b91a30c43f24c290c9840d8ca67482aea1231141acf5b39702551383e8a9449",
+    "hash": "a733662ffef90e6bb5c9d37e9b8dc60d34c2d6cf704e4ef6ff07d34e550f0119",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ChasingWind/Misc_CW_WHITE_PEARLS_{var--WhitePearlIdx}.txt": {
-    "hash": "89fca5fd428752f79570af3870dd13ec603c168424abf899ce0211164599b31d",
+    "hash": "9707c4628ec013be1e9a5e249ed426e8dc038b3b5d6204241b4a5be1823b26d8",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/CorrodedPassage_echo.txt": {
-    "hash": "eeff11027b6ea328758a53235bf5028e13be3ed38465db5e8037cf17965b0c29",
+    "hash": "64582877b159bbeb6437f499eabc6691e9eb4b305db559ba5f772887eef7ea27",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/MARPQ.txt": {
-    "hash": "bd24eac170764b1925876e896e05d4fc51130b27a1d61f63b1d0b25137e4f39b",
+    "hash": "4582956c0d7da47d9727805717434332baa4ce7a53bb09d15682ef1d1da2c7e6",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/PQ_P1.txt": {
-    "hash": "02642bfb7d87d4728b8889bfb3846b91ae9902085d7b86f20264bc7a8b8be0b1",
+    "hash": "e18d9e7caa46a9d4c30bb975b07abcf720bfc79630148b35e127e981407d26cd",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/PQ_P2.txt": {
-    "hash": "11271ec6be0a76297620f081fad1a24aa00adf6963369ded2bca3e22d2530ef0",
+    "hash": "bd253d1b63cfb316dd20a54c0083cbccfa22e69279aa00f9bcbfaf06fd862857",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/PUPPQ.txt": {
-    "hash": "c676738863e2cffc91f4b5ad9fdef2aab594470339f81286bec4adc09f6def89",
+    "hash": "43e40af92fca800779671283fd9c6fe2d08a7b8ab6c45cc1f2d3a8adf1dd6f9a",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/PUPPQ1.txt": {
-    "hash": "7be24fa7c46d6440e4b4ea33bf64049ed19e262f602a790568f5233043ff1f86",
+    "hash": "935c3f438ffdc54184f20bdefb2c2e918cf66dc5bac0f3fc95e918fdcab65a7e",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/PUPPQ2.txt": {
-    "hash": "a2d17e91fc36b3861f297832b18b608a5c8a86b405157c83ebac6ac524b91f9d",
+    "hash": "050d54f50af3a4b7a54988e083135b09ee15412ee4ee123cb4c0d4af24d6aba1",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/PUPPQ3.txt": {
-    "hash": "f9dc00dfd7cebd7467af3caf77ad16585a06a8f9554f14040929a0e8c59a907b",
+    "hash": "9f8dc050f4762a496caba242794c7d3c7e7b6259d234b4996a29a37710a868a4",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/SEBPQ.txt": {
-    "hash": "223ccde130f9f87764b647bb0b89877b0649ca7dac2183ee6cddc074927d12c6",
+    "hash": "dae4789a811f81b9df8519f91a10276329c36f19fbb036d449c0e338b7c20fbf",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/CorrodedPassage/SMOLDPQ.txt": {
-    "hash": "972413048a19e9c26428f863d1c26c483a2d2231dd153d8df02aa6f0348952db",
+    "hash": "a5b74f607d169ccf8fb3fa23ba5ab47cfeb67ae1fb9cddefb7a3286925a07b81",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/DrainageSystemPlus/DrainageSystemPlus.txt": {
-    "hash": "cb1388fc192d4055c36299d5d331cc9b22390f5122df6ccc45078c8c1e7a1628",
+    "hash": "ee83249c6faafd1942332ec9bf47d345af416a3d41ea21b6e12a2a5e63d4bbc3",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/FarShore/FarShore_echo.txt": {
-    "hash": "bf69d1747b827a9cd3c52d71a61513fac5fd8d567702f266ee4052aa92f017ee",
+    "hash": "79c8fe5c254fee414c69553f987111b6a42373157746a649d9bbf2c87f7c52f5",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/FarShore/FR_Pearl_1.txt": {
-    "hash": "4bdc36c59a8e42ef89839787890cdf336417b6f8fac2654788a1de2016b0ece9",
+    "hash": "9b770ee833e9349e15112f0ba6145ed2e2901ea3e7793ffe9f8a728a598b7e9b",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/FarShore/FR_Pearl_2.txt": {
-    "hash": "29f6b440dc55f9f127bc484363d0b4466e9a0e460ad9d96f30d098e994ab80d6",
+    "hash": "2d79789038544e22ff56b0b13d33a8a915e8043fb43485d9d5c4f1299dd41e05",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/FarShore/FR_Pearl_3.txt": {
-    "hash": "7d75c75e889186519c7caa876c7b1ab905fa568402df4a99daf96a8df9a39057",
+    "hash": "9a46de23820c331b34300bf021e54c0045b9ee6e1607ae939a034fc83337b447",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/GrayUrban/GrayUrban_echo.txt": {
-    "hash": "3c909b7b692b90f774eebed9671c81f7b7a1dd6689414180b2c2783b642c22b5",
+    "hash": "184c71adb2a8d1f98fcda8d12441edd7b564ad232f67a9790fdda9ce315d7893",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/GrayUrban/GU_Pearl_1.txt": {
-    "hash": "f0d78641a67467dc1be1565a86fbd88fb5362e15293492842303506a90762c1c",
+    "hash": "f0c326e097e86326ea3b9a557be40168d15afe0a07f3148e15761db7ff369733",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/GrayUrban/GU_Pearl_2.txt": {
-    "hash": "c3d27cbfbb7c66031dba28697872c6e5f5adbc0acdda1a9687abc2305232d972",
+    "hash": "880bbb6b7e871a5d5ad35352ae9a30915d9c575034fafb1decd90ad25490ef04",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/HangingGardens/GH_Pearl.txt": {
-    "hash": "f48dab6969d5f23e0020443d64a76660bca0f391c64ddc0f6a07e7a932244f3b",
+    "hash": "2490dfc88a3221b43129d4d5b1d9c204f5e99afe90d93046eed79281165eea5f",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/LuminousCove/EU_Pearl_1.txt": {
-    "hash": "be8b12450fc7760cf6b03a3bb8e448712e9cd694753fb146e3f7899ece7e3a99",
+    "hash": "af0488e12b6b706999b318051fe924544fe52d99f09d2d9cf0a5f2fd7c080569",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/LuminousCove/LuminousCove_echo.txt": {
-    "hash": "aa8b45a90b72fd489f819436f3af2888caa92da453202660d61b745efe099a36",
+    "hash": "5c8ace686500824194d2a52717ee73a9599270f7f4d9c1647d9e9be3593bfd60",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/MossFields/MF_Pearl_1.txt": {
-    "hash": "2f0867ec3a49da2513b0f1b8d9fbd0d357e2babbf1caba9a9e6aaae8a8281762",
+    "hash": "dc43da35fcbb7ef375c750ce391740a4212d15ad3af8bf952ccc6426f1a0d585",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/Necropolis/Necropolis_echo.txt": {
-    "hash": "e1afe1f71d1fd5d890cc7dbeb4e834c1e41cfa3d38d91b334def5486441e868e",
+    "hash": "1a35a3dfc35d0762f4907c4f2a6b07825de1d3aa1b5aa4680ea77e37ebf71739",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/Necropolis/NP_Pearl_1.txt": {
-    "hash": "bbc69d228731a1850e437a8d8242af8908becc7c3a6917026e56d2113e242154",
+    "hash": "204253a1454d121fae2039be663682b6c80c9a1a6a72c1a6eca2b941e5c89435",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/Preservatory/PV_Journel_1.txt": {
-    "hash": "ebe3327bbf29657fe46f4230655ff60f8ef29667f23370ffbef05943881b879c",
+    "hash": "ae6ad632b6e260b87523ee8d51157fe589953052beae25f7a51ddc417951d04e",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/Preservatory/PV_Journel_2.txt": {
-    "hash": "a921cc699e9bc34dac0554785eb9ba2fca37b8407436f5a70c83aa0b52de9735",
+    "hash": "29d3b906f1ef066d3b6c4257f70279ce47baf5e88f8e7b30e626a27d147dae7f",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/Preservatory/PV_Journel_3.txt": {
-    "hash": "82ef90678b62d00280ff8957b72f2d94c58a331357b1bdc5b65258f1f13c0d0f",
+    "hash": "247311aa427b9addf7e8b3bef4290fb3a4b8efe13d2213434e6b5a0a31d5b4b2",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/Preservatory/PV_Mural.txt": {
-    "hash": "842cf4755742c8ff4c08134de78c7961ad7d4015d3bc151fa2befaae0f0e0cc2",
+    "hash": "bac903a60c8e647b2d81424fce877e10d0626978bba608a25b6c6b664450d402",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ScorchedDistrict/ScorchedDistrict_echo.txt": {
-    "hash": "3ffaf68e4b18e8277ab1fb48099cd69b0b64d37171dd48c169a28fbc7ca760a8",
+    "hash": "ad25b451bb6d4e4ece7ec8f8d47aa6f9c99b1e8acf0895af9d89c2ac35a540b0",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/ScorchedDistrict/SD_Pearl_1.txt": {
-    "hash": "986c362424749a1d2c90922e7e3599763278591453fb262c07656ec57d968132",
+    "hash": "4d9ed76f66db71850679949d30159cb5de3eb5eaa8fe992699858bf2b01beaa8",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TheMast_echo.txt": {
-    "hash": "98cac3681fd7c8430ae7043522c92f7cca7f2c7135905b35f97cd9bc09e63e52",
+    "hash": "0039999e411fa9d88f9b073a5bb7a3c07c8a24db4bebfc2511e0d60497eb6099",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TM_Bridge.txt": {
-    "hash": "e276c1894cc73ae0268aca82eccead6f1289010d89b71b3f2c57e63ffd30d25b",
+    "hash": "413851475c1d52053b8852585deddc4c8c39d96abd4e95dbe1aa13349a362523",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TM_Broadcast1.txt": {
-    "hash": "139be83a6bdf4fa273f4c1cee1355f7eb594889f0f2c04688a96b52d13deb794",
+    "hash": "bd036d5ca312bf42ed25b0f2a1815fe1535b3540a3e676fa5afc6c8f989b889d",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TM_Broadcast2.txt": {
-    "hash": "1c6b0016174dbab6fbef7bd85f601a33a1a2f110cf3bdcead98e98c633b6039d",
+    "hash": "52af3392fac06a7c9a782886e7002041102a7d65310394446b0b526b94aba794",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TM_Broadcast2B.txt": {
-    "hash": "480f9b8233aab3c6dc37596ff3e797eb2520af879897cec7a5191980027ec38c",
+    "hash": "75971f0e0415599594fc9f41261332ada9cad56757e4a7d9501ebf27206c2e92",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TM_Broadcast2C.txt": {
-    "hash": "c293b1c12558969d1e001d50ce6170bb749e449dfa4e1956a54f45e6dac9a391",
+    "hash": "a8a3aa2f34271c4ceefff64f378d76e987fb0d6e6f16e014019b7932316354c9",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TM_Broadcast3.txt": {
-    "hash": "6439310d6e80bfbb3709da572818324a62c9837960c84b63593d5bef8c2f1165",
+    "hash": "34714fae111d2b0091402996ffe6f4e46177f162a207978e5e1e6c8e5a9eacbd",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TM_Broadcast4.txt": {
-    "hash": "a7d1c7faf4a72d1606344fc5fd0e60569b37cc1a4231c743be8317d967201184",
+    "hash": "ac9338d587b242fb28ae7e89fdd60cf28224b668b8e60afa9d3cb72e7bdf9db7",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/TheMast/TM_Spire.txt": {
-    "hash": "815c0a1b3b1e240720440576ac7ceca7099b36ab06416b660ca2cfc966110b05",
+    "hash": "9c2ccbb49168a1037732357e6cb5e96be5894b6f0d1a836ef4b3779485317c6a",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/CC_GOLD.txt": {
-    "hash": "85e0471eb71308cbd4c6764f8c2901c95f085bd847c53d0cc108300fa36290c8",
+    "hash": "63a6315a5139e49c28b871ee4ae06a8eaa6b708c98fc078b00b4f9ee6441f1bb",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/DM_LIGHT_YELLOW.txt": {
-    "hash": "fbd2633f2683b634801b0877b8221f349c9ab42b792f4b1e1ffcf1d59900bb89",
+    "hash": "2487da3bb2d4ca5ef2d4c11f895352a620d64945d611be24e25e33869507fe20",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/DS_BRIGHT_GREEN.txt": {
-    "hash": "f4076e83dfbdad2ac9fec32e3fd1748620605815bbd435bcd7a5e89e43152dbd",
+    "hash": "d0224d76332e76b69ed5b77858ae53b966f2c627bfbe8898bff313c0d0db4914",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/GW_VIRIDIAN.txt": {
-    "hash": "9a38441e5b55e66f620c26993d93d6137b8da2c4fbf160df2309f1d9ef18fb07",
+    "hash": "cf02832b18c70e91f6ba00fc3be411f4a9c8cb32f749948e165d441333c40e5a",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/HI_BRIGHT_BLUE.txt": {
-    "hash": "35a7e01c137a4a4df74ee447fc175b336e18a13b77152782ae812cd7c2508e03",
+    "hash": "283f6a22db504691754f4886d6dbf8a1df5faa944aa6a79c684b9a63ae3ed822",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/LC_DEEP_GREEN.txt": {
-    "hash": "e636bcb3f826fbd7cb8c1039479839c4a4fe03473f9301cf29914c2f62cf60f0",
+    "hash": "09f21c540ec7719135f3b10b4f4860fbea6d75c13a6e6fa7858577614b06219b",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/LC_second_BRONZE.txt": {
-    "hash": "bb13ac598c8189e94b55042d0ecb0855364c5df8f422b8f98a37a9419e14c6ac",
+    "hash": "d85c4ce4c9157ccd6b785a1bc137f4907cc41d3c0e6c51bf3a40fcd682c76f7c",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/LF_bottom_BRIGHT_RED.txt": {
-    "hash": "75ec0dd2cfcffdd6ac2d7e06b7a754bc5a18560d4ac9587bf4f6d377183113cb",
+    "hash": "0c06740849c295d3b0ba046dffceaf20f3bd405d7f28a8c4970b57a4851bbf95",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/LF_west_DEEP_PINK.txt": {
-    "hash": "3ebb1dc9f8648e36e685406ac1181ce9665487f10952ac8e4beeea2dfdff2a9b",
+    "hash": "b30cc77dad492b7b138b224d8272d74c8dd09881b60158ffbbafbb300b905c59",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/OE_LIGHT_PURPLE.txt": {
-    "hash": "59857cf0f075e8e5014350a8c7713e491ccbd2af0082cfa03cc13a5997ad53eb",
+    "hash": "38abc489a8d0d6f20f4ba4286558261fba2705425fdfba66f90868f65928bf10",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/Red_stomach_AQUAMARINE.txt": {
-    "hash": "8fa982a2b9a459cd9e35aaf7b9d34015cda3f95953265e851138d7f9a0a084c9",
+    "hash": "f8e7851df13e23116a686fd89dfb31a0cb0a04333d50c410068350d753662d6f",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/Rivulet_stomach_CELADON.txt": {
-    "hash": "73596459a800257da0bf317eaeb9bc2ef8e31e46fc916d2d6201542ff5dc0be9",
+    "hash": "4fb1b9e1c31cf3962db6d7d3fab721152ca566c6a240a3b24d834903ff4aa33b",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/RM_MUSIC.txt": {
-    "hash": "30a13ca7b5ed857320bb54fb3f3ef385a2e547800bd4f43a842ccce8d153ee8f",
+    "hash": "92ef671e7af7b4078f66fd554f4be9be6209114f814f88540d2ee003112134e4",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SB_filtration_TEAL.txt": {
-    "hash": "4234bfd9fa7a1daac445b10af07356406fa484b459c5b5a3ff72b1e3ca42e2ef",
+    "hash": "8fb73861eb97ef51d5e6bae3ca80aba33cf06d83ac3a7b85f06f683bf4d9009e",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SB_ravine_DARK_MAGENTA.txt": {
-    "hash": "ec7ae0eb81b2582a85fb12cbf6fba69268a0fbdc7c607e920a99c79031411a1e",
+    "hash": "dde92f5a7000ef29866ca9d8e40d588da260392385c947fabcfbd91108f0c191",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SH_DEEP_MAGENTA.txt": {
-    "hash": "90254b2511e609331ff6d79480097869f92c2e04f88b7425415f4233a0af6e3c",
+    "hash": "4d65a7663483b8cfb6c7314b0f74f255eb24c9c5e4c9ebfd1660f1a808e7ba4a",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SI_chat3_DARK_PURPLE.txt": {
-    "hash": "c70a920289614e993d23d9809cbf81c9697c6afeee20983523c305291ab9c9f8",
+    "hash": "3034f4ed8739a4d2181bb0dcd0f923541ec9238d24616db9acd6d9704e6c9bd7",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SI_chat4_OLIVE_GREEN.txt": {
-    "hash": "7627d13034e34886aa5525b4ee6ef3228ee8549f1d8720f20fe5963e4c33d00f",
+    "hash": "848161bfcde5fd7f6c6eff8792552515935f1b7224e6b55b933f0c7b7cfa27ae",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SI_chat5_DARK_MAGENTA.txt": {
-    "hash": "2c9c546badcf6626843dd09f2800ac2f53bb65b730767972ebb5bcb665a4cc2f",
+    "hash": "31824d65647beb6292ad6ec79e0ce16159044409c24fe6d7d3f82cc402d7a3c1",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SI_top_DARK_GREEN.txt": {
-    "hash": "70d717bb4aa20b27b07d4b01bd00c0eeb6427f2c9a0eeb58e74517233cac88dc",
+    "hash": "18d6b01ce19e8964fb86d71d277d6a5a31901212c8ca74555c4dcf99a97c50fc",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SI_west_DARK_BLUE.txt": {
-    "hash": "e1033fe48aa513eaa081ce237f3ae3fbcd2b5dc822ade604bef2bc7476341d66",
+    "hash": "7b445c41b8e28f3f0159e059cc02629f717fdfe31037f25b343ca8fd5ca1529f",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SL_bridge_BRIGHT_PURPLE.txt": {
-    "hash": "d2ef3b015b5821837ab8516a8b6f7b3d8d1dc141c952d8be3369944e5a2e5408",
+    "hash": "2d4f9a66b4c609ac0640a4509639f13d14d5d9cbc67206d2d0f504170bfbeed0",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SL_chimney_BRIGHT_MAGENTA.txt": {
-    "hash": "2a20516c7d4fe251ad265e705cd3661f264600f800d34ef3d7875ec1b3036e22",
+    "hash": "d87f5d48bed8928bd763b8ef9a3bc489be544ad15146801f80587a59ae09824a",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SL_moon_PALE_YELLOW.txt": {
-    "hash": "4e692e295ac741a9658fdf2f7fed9501baaee076bd6fc77c4a4821f817f275d2",
+    "hash": "d703d1f1ad1475aaf121ddd3b9ae998392147224734bfc40b37b7b8087537261",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/Spearmasterpearl_DARK_RED.txt": {
-    "hash": "a158593602f6ccb262346f894997719cf9496f1cec0884a28525a9e571a31808",
+    "hash": "2381e9336350b64fdea9dcd6ea9f35bc3cb4a085eeac2f37c5ece7c870148bf1",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SU_filt_LIGHT_PINK.txt": {
-    "hash": "f995ed0ce2456d5856a0f7d2a1b5178f2242df97d8ea0556a210cdbe41e2f46f",
+    "hash": "b537315a028f33d8144c822acf10b3276c5d512a6050cbe3cf1d4a2b42ff6421",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/SU_LIGHT_BLUE.txt": {
-    "hash": "a2ad4f82af71c949bd1e7d948be26f4c9376d968c85c28c0279a9173204cc518",
+    "hash": "af9dffd38a2c618de7df5b8b87ad81ab3f368b4b91efc1d55d1123c1c2e43dba",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/UW_PALE_GREEN.txt": {
-    "hash": "3d9fe1972d24988a6dd794ec307c85177438860f4dd452afd7fcda43bef82fe7",
+    "hash": "4474d8765e65bb5389a55ba90eba7ecdeea3098b7b701a6f339e379e67268fb0",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue-modded/v_dp_pearls/VS_DEEP_PURPLE.txt": {
-    "hash": "5f68c258051bb1c02ebb1d05dda0c500bbbdb39e95c322736853f8a0e9b1ae7b",
+    "hash": "3999f17134e84c5080844e9066488ddb299fbe4af9ee5f081ef4f6db841ea016",
     "lastmod": "2026-06-21T12:30:53+02:00"
   },
   "dialogue/dp_addon/LttM_SAINT_ANY_OTHER.txt": {

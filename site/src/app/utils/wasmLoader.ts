@@ -11,7 +11,9 @@ export function loadWasm(): Promise<void> {
             resolve();
         }, { once: true });
         const script = document.createElement('script');
-        script.src = process.env.PUBLIC_URL + '/wasm/rw-save-file-editor.js';
+        // strip trailing slash so a root deploy ("/" or "") gives "/wasm/..." not protocol-relative "//wasm/..."
+        const base = (process.env.PUBLIC_URL || '').replace(/\/+$/, '');
+        script.src = base + '/wasm/rw-save-file-editor.js';
         script.onerror = () => {
             clearTimeout(timeout);
             reject(new Error('Failed to load WASM script'));

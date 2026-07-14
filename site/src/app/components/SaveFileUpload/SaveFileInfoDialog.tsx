@@ -10,6 +10,7 @@ import { randomColor } from '../../utils/colorUtils';
 import { RwCheckbox } from '../other/RwCheckbox';
 import { useAppContext } from '../../context/AppContext';
 import { SaveMatchSummary } from '../../utils/saveCollectibles';
+import { PRIVACY_URL } from '../../config/site';
 
 type UploadState = 'idle' | 'loading-wasm' | 'reading' | 'parsing' | 'done' | 'error';
 
@@ -236,7 +237,7 @@ export function SaveFileInfoDialog({ phase, uploadState, errorMessage, matchSumm
                                     <span className="text-sm">Submit save file for parser testing</span>
                                 </RwCheckbox>
                                 <a
-                                    href="https://github.com/YanWittmann/rw-collection-index/blob/main/privacy.md"
+                                    href={PRIVACY_URL}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-xs text-white/40 underline hover:text-white/60 transition-colors shrink-0 ml-auto"

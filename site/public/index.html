@@ -65,25 +65,25 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://yanwittmann.github.io/rw-collection-index"/>
+    <meta property="og:url" content="https://rw-collection-index.github.io"/>
     <meta property="og:title" content="Rain World Collection Index | Pearls, Broadcasts, Downpour & The Watcher DLC"/>
     <meta property="og:description"
           content="Complete interactive database of Rain World lore. Browse Pearls, Broadcasts, Dialogue, and more with search and spoiler protection."/>
     <meta property="og:image"
-          content="https://raw.githubusercontent.com/YanWittmann/rw-collection-index/refs/heads/main/doc/rw-collection-index-card-2x.png"/>
+          content="https://raw.githubusercontent.com/rw-collection-index/rw-collection-index.github.io/refs/heads/main/doc/rw-collection-index-card-2x.png"/>
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image"/>
-    <meta property="twitter:url" content="https://yanwittmann.github.io/rw-collection-index"/>
+    <meta property="twitter:url" content="https://rw-collection-index.github.io"/>
     <meta property="twitter:title"
           content="Rain World Collection Index | Pearls, Broadcasts, Downpour & The Watcher DLC"/>
     <meta property="twitter:description"
           content="Complete interactive database of Rain World lore. Browse Pearls, Broadcasts, Dialogue, and more with search and spoiler protection."/>
     <meta property="twitter:image"
-          content="https://raw.githubusercontent.com/YanWittmann/rw-collection-index/refs/heads/main/doc/rw-collection-index-card-2x.png"/>
+          content="https://raw.githubusercontent.com/rw-collection-index/rw-collection-index.github.io/refs/heads/main/doc/rw-collection-index-card-2x.png"/>
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://yanwittmann.github.io/rw-collection-index"/>
+    <link rel="canonical" href="https://rw-collection-index.github.io"/>
 
     <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico?"/>
     <link rel="shortcut icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico?"/>
@@ -107,7 +107,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png"/>
     <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest"/>
 
-    <meta name="google-site-verification" content="a7U22jZ4G4iP3B_Ukped9W1814rnDme2P5MWF2OOCyk"/>
+    <meta name="google-site-verification" content="SEARCH_CONSOLE_TOKEN"/>
 
     <title>Rain World Lore Collection Index | Pearls, Broadcasts, Downpour & The Watcher DLC</title>
 
@@ -139,6 +139,7 @@
 <script>
     window.__RW_COUNT__ = function(key) {
         if (window.location.hostname !== 'localhost' && !window.location.hostname.startsWith('127.0.0')) {
+            // COUNTAPI_INCREMENT_URL
             setTimeout(() => fetch('https://yanwittmann.de/projects/countapi/increment.php?namespace=rwci&key=' + key), 0);
         }
     };

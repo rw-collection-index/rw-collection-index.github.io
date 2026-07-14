@@ -8,6 +8,7 @@ import { SaveFileUpload } from "../SaveFileUpload/SaveFileUpload";
 import { TitleSection } from "./TitleSection";
 import { datasetRootHref } from "../../routing/browserRouting";
 import { assetUrl } from "../../utils/assetUtils";
+import { NEW_ISSUE_URL } from "../../config/site";
 
 async function buildIssueUrl(data: Map<string, Set<string>>): Promise<string> {
     const groupPrefixes = [
@@ -94,7 +95,7 @@ async function buildIssueUrl(data: Map<string, Set<string>>): Promise<string> {
         labels: 'bug,save-file',
         body: [...bodyParts, details].join('\n')
     });
-    return `https://github.com/YanWittmann/rw-collection-index/issues/new?${params.toString()}`;
+    return `${NEW_ISSUE_URL}?${params.toString()}`;
 }
 
 
@@ -189,7 +190,7 @@ export function WelcomeDialogueContent() {
                                 size="small"
                                 aria-label="Report a parsing issue on GitHub"
                                 onClick={() => window.open(
-                                    issueUrl ?? 'https://github.com/YanWittmann/rw-collection-index/issues/new',
+                                    issueUrl ?? NEW_ISSUE_URL,
                                     '_blank'
                                 )}
                             >

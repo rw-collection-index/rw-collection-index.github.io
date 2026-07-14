@@ -4,7 +4,7 @@
  *
  * This module is intentionally pure: no DOM, no `window`, no `process.env`. It
  * deals only in base-relative path strings (e.g. "/modded/CC/moon/"). The public
- * base ("/rw-collection-index") is injected at the edges:
+ * base (empty at the root deploy, or a "/segment" under a subpath) is injected at the edges:
  *   - the browser app via routing/browserRouting.ts (uses process.env.PUBLIC_URL),
  *   - the build via generate-routes.ts (reads homepage from package.json).
  *

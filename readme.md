@@ -5,7 +5,7 @@
 The Rain World Collection Index is a comprehensive interactive archive created to help players explore and keep track of [Rain World's](https://store.steampowered.com/app/312520/Rain_World/) lore.
 It provides a centralized place to browse all Pearls, Broadcasts, Dialogue and Projections from the Vanilla base game, Downpour DLC, The Watcher DLC and popular community mods.
 
-🔗 **Hosted at:** [https://yanwittmann.github.io/rw-collection-index](https://yanwittmann.github.io/rw-collection-index)
+🔗 **Hosted at:** [https://rw-collection-index.github.io](https://rw-collection-index.github.io)
 
 ## Collection Index Content
 
@@ -173,14 +173,14 @@ Every entry has its own shareable link. Paste one into Discord, a chat or social
 <table>
   <thead>
     <tr>
-      <th width="50%"><a href="https://yanwittmann.github.io/rw-collection-index/SL_moon/LttM">SL_moon (Looks to the Moon)</a></th>
-      <th width="50%"><a href="https://yanwittmann.github.io/rw-collection-index/CC/PearlReader">CC (Pearl Reader)</a></th>
+      <th width="50%"><a href="https://rw-collection-index.github.io/SL_moon/LttM">SL_moon (Looks to the Moon)</a></th>
+      <th width="50%"><a href="https://rw-collection-index.github.io/CC/PearlReader">CC (Pearl Reader)</a></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="50%"><img src="https://yanwittmann.github.io/rw-collection-index/SL_moon/LttM/og.png" width="100%"/></td>
-      <td width="50%"><img src="https://yanwittmann.github.io/rw-collection-index/CC/PearlReader/og.png" width="100%"/></td>
+      <td width="50%"><img src="https://rw-collection-index.github.io/SL_moon/LttM/og.png" width="100%"/></td>
+      <td width="50%"><img src="https://rw-collection-index.github.io/CC/PearlReader/og.png" width="100%"/></td>
     </tr>
   </tbody>
 </table>
@@ -206,12 +206,12 @@ Contributions are welcome! Please open an Issue or Pull Request to discuss chang
   </tr>
   <tr>
     <td align="center" width="120">
-      <a href="https://github.com/YanWittmann/rw-collection-index/issues">
+      <a href="https://github.com/rw-collection-index/rw-collection-index.github.io/issues">
         <img src="site/public/img/spinning-top.png" width="72" style="image-rendering: -moz-crisp-edges; image-rendering: -webkit-crisp-edges; image-rendering: crisp-edges; image-rendering: pixelated;" />
       </a>
     </td>
     <td>
-      <strong><a href="https://github.com/YanWittmann/rw-collection-index/issues">Report Bugs & Suggestions</a></strong>
+      <strong><a href="https://github.com/rw-collection-index/rw-collection-index.github.io/issues">Report Bugs & Suggestions</a></strong>
       <p>
         Found a typo, incorrect map location, or missing content?
         Open an issue to report bugs, suggest changes, or discuss new feature ideas.
@@ -220,7 +220,7 @@ Contributions are welcome! Please open an Issue or Pull Request to discuss chang
   </tr>
 </table>
 
-Do you want your modded dialogue to be added to the [modded version of the collection](https://yanwittmann.github.io/rw-collection-index/?d=modded)?
+Do you want your modded dialogue to be added to the [modded version of the collection](https://rw-collection-index.github.io/?d=modded)?
 Please let me know, or follow the guide above to add it by yourself!
 
 Look at these epic people that supported this project:
@@ -249,8 +249,8 @@ Since GitHub Actions only performs a shallow clone, we would otherwise lose the 
 
 ```bash
 # clone the repository / install dependencies
-git clone https://github.com/YanWittmann/rw-collection-index
-cd rw-collection-index/site
+git clone https://github.com/rw-collection-index/rw-collection-index.github.io
+cd rw-collection-index.github.io/site
 npm install
 
 # dev server
@@ -299,4 +299,4 @@ It sometimes fails, however; its success rate is roughly 98%, so for the rest we
 
 ---
 
-Code on <a href="https://github.com/YanWittmann/rw-collection-index" target="_blank">GitHub</a>&nbsp;&nbsp;○&nbsp;&nbsp;Created by Yan Wittmann&nbsp;&nbsp;○&nbsp;&nbsp;Rain World is property of <a href="https://videocultmedia.com" target="_blank">Videocult</a>&nbsp;&nbsp;○&nbsp;&nbsp;<a href="https://github.com/YanWittmann/rw-collection-index/blob/main/privacy.md" target="_blank">Privacy Policy</a></div>
+Code on <a href="https://github.com/rw-collection-index/rw-collection-index.github.io" target="_blank">GitHub</a>&nbsp;&nbsp;○&nbsp;&nbsp;Created by Yan Wittmann&nbsp;&nbsp;○&nbsp;&nbsp;Rain World is property of <a href="https://videocultmedia.com" target="_blank">Videocult</a>&nbsp;&nbsp;○&nbsp;&nbsp;<a href="https://github.com/rw-collection-index/rw-collection-index.github.io/blob/main/privacy.md" target="_blank">Privacy Policy</a></div>

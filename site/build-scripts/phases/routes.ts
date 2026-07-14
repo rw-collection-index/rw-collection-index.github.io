@@ -37,10 +37,7 @@ import {
     validateDatasets,
 } from '../../src/app/routing/routes';
 import type { PearlData } from '../../src/app/types/types';
-
-const SITE_ORIGIN = 'https://yanwittmann.github.io';
-const DEFAULT_OG_IMAGE =
-    'https://raw.githubusercontent.com/YanWittmann/rw-collection-index/refs/heads/main/doc/rw-collection-index-card-2x.png';
+import { SITE_URL, DEFAULT_OG_IMAGE } from '../../src/app/config/site';
 
 const DEFAULT_TITLE = `${SITE_NAME} | Pearls, Broadcasts, Downpour & The Watcher DLC`;
 const DEFAULT_DESCRIPTION =
@@ -61,12 +58,12 @@ function htmlAttrEscape(value: string): string {
 }
 
 function absoluteUrl(routePath: string): string {
-    return SITE_ORIGIN + BASE + routePath;
+    return SITE_URL + routePath;
 }
 
 function toAbsoluteOg(ogImage: string): string {
     if (/^https?:\/\//.test(ogImage)) return ogImage;
-    return SITE_ORIGIN + BASE + (ogImage.startsWith('/') ? ogImage : '/' + ogImage);
+    return SITE_URL + (ogImage.startsWith('/') ? ogImage : '/' + ogImage);
 }
 
 /**
@@ -212,7 +209,9 @@ function contentHashLastmodMap(sourceFilesRelToRoot: string[]): Map<string, stri
     const updated: Record<string, TimestampEntry> = {};
 
     for (const rel of sourceFilesRelToRoot) {
-        const hash = crypto.createHash('sha256').update(fs.readFileSync(path.join(ROOT_DIR, rel))).digest('hex');
+        // normalize CRLF -> LF before hashing so the cache key matches on Windows (CRLF) and CI (LF)
+        const content = fs.readFileSync(path.join(ROOT_DIR, rel), 'latin1').replace(/\r/g, '');
+        const hash = crypto.createHash('sha256').update(content, 'latin1').digest('hex');
         const lastmod = stored[rel]?.hash === hash ? stored[rel].lastmod : gitLastmodForFile(rel);
         if (lastmod) {
             updated[rel] = { hash, lastmod };
@@ -247,7 +246,7 @@ function writeSitemapXml(entries: Array<{ path: string; lastmod: string }>): voi
 function writeRobots(): void {
     writeText(
         path.join(BUILD_DIR, 'robots.txt'),
-        `# https://www.robotstxt.org/robotstxt.html\nUser-agent: *\nDisallow:\n\nSitemap: ${SITE_ORIGIN}${BASE}/sitemap.xml\nSitemap: ${SITE_ORIGIN}${BASE}/sitemap.txt\n`,
+        `# https://www.robotstxt.org/robotstxt.html\nUser-agent: *\nDisallow:\n\nSitemap: ${SITE_URL}/sitemap.xml\nSitemap: ${SITE_URL}/sitemap.txt\n`,
     );
 }
 

@@ -25,7 +25,7 @@ export const BUILD_COMPRESS_IMG_DIRS = COMPRESSED_IMG_DIRS.map(dir => path.join(
 
 export const pkg = JSON.parse(fs.readFileSync(path.join(SITE_DIR, 'package.json'), 'utf8'));
 
-/** Public base path, e.g. "/rw-collection-index" (no trailing slash). */
+/** public base path from package.json "homepage", no trailing slash ("" at root) */
 export const BASE = String(pkg.homepage || '/').replace(/\/+$/, '');
 
 /** Absolute path to a dataset's dialogue source folder (its dialogueDir is relative to site/). */

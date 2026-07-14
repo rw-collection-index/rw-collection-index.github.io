@@ -8,6 +8,7 @@ import { applyCollectibles, extractCollectibles, SaveCollectibles, SaveMatchSumm
 import { loadSaveUnlockEvaluator, SaveUnlockEval } from '../../utils/saveUnlockLoader';
 import { SaveFileInfoDialog } from './SaveFileInfoDialog';
 import { count } from '../../utils/track';
+import { NEW_ISSUE_URL, SUBMIT_SAVE_URL } from '../../config/site';
 
 type UploadState = 'idle' | 'loading-wasm' | 'reading' | 'parsing' | 'done' | 'error';
 
@@ -82,7 +83,7 @@ export function SaveFileUpload() {
                 '',
                 '',
             ].join('\n');
-            const issueUrl = `https://github.com/YanWittmann/rw-collection-index/issues/new?${new URLSearchParams({
+            const issueUrl = `${NEW_ISSUE_URL}?${new URLSearchParams({
                 title: 'Save File Parsing: could not parse save file',
                 labels: 'bug,save-file',
                 body: issueBody,
@@ -114,7 +115,7 @@ export function SaveFileUpload() {
             const formData = new FormData();
             formData.append('savefile', pendingFile);
             if (note.trim()) formData.append('note', note.trim());
-            fetch('https://yanwittmann.de/projects/collection-index/api/submit_save.php', {
+            fetch(SUBMIT_SAVE_URL, {
                 method: 'POST',
                 body: formData,
             }).catch(() => {});

@@ -12,7 +12,7 @@ import {
     parseLegacyParams,
 } from './routes';
 
-/** The public base path, e.g. "/rw-collection-index" (no trailing slash). */
+/** public base path, no trailing slash ("" at root) */
 export const BASE_PATH = (process.env.PUBLIC_URL || '').replace(/\/+$/, '');
 
 /** Remove the base path prefix from a full pathname, yielding a base-relative path. */
@@ -29,8 +29,8 @@ export function routeHref(params: RouteParams): string {
 }
 
 /**
- * The full href of a dataset's root (e.g. "/rw-collection-index/" or
- * ".../modded/"). Switching datasets is a real navigation (different data is
+ * The full href of a dataset's root (e.g. "/" or "/modded/", plus any base
+ * path). Switching datasets is a real navigation (different data is
  * fetched at bootstrap), so callers assign this to window.location.href.
  */
 export function datasetRootHref(datasetKey: string): string {

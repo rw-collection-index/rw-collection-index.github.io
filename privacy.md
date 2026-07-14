@@ -19,6 +19,6 @@ What is collected:
 
 ---
 
-If you have any questions about this, please [open an issue](https://github.com/YanWittmann/rw-collection-index/issues/new).
+If you have any questions about this, please [open an issue](https://github.com/rw-collection-index/rw-collection-index.github.io/issues/new).
 I understand that this kind of tracking is already enough for some people to no longer want to use a service, yet I hope you can relate to me wanting to know how many people actually use a webpage I've spent months of my life and a few hundreds of Euros on, for free to use.
 You can always build this software yourself and host it locally to view the data without any of this nonsense.

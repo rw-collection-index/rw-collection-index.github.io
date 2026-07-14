@@ -13,7 +13,7 @@ export const Tint = {
     natural: (): AssetTint => ({ mode: "natural" }),
 } as const
 
-// The public base path (e.g. "/rw-collection-index"), empty in dev where the app is served at the root.
+// The public base path, empty ("") at the root deploy and in dev, or a "/segment" when served under a subpath.
 // All asset URLs are made absolute-from-base so they resolve correctly at any route depth (e.g. on /CC/moon/), which relative paths would not.
 const ASSET_BASE = (process.env.PUBLIC_URL || '').replace(/\/+$/, '')
 
