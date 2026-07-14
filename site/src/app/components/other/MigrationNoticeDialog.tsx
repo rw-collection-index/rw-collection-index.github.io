@@ -14,10 +14,10 @@ export function MigrationNoticeDialog() {
 
     useEffect(() => {
         try {
+            setOpen(true);
             if (localStorage.getItem(SEEN_KEY)) return;
             if (!document.referrer.includes(OLD_ORIGIN)) return;
             localStorage.setItem(SEEN_KEY, 'true');
-            setOpen(true);
         } catch {
         }
     }, []);
@@ -52,13 +52,13 @@ export function MigrationNoticeDialog() {
                 </div>
                 <div className="flex flex-col gap-4 px-5 py-4 text-sm text-white/90">
                     <p>
-                        It now has its own dedicated address instead of being hosted under a personal account.
-                        The old link still works, but going forward this is the one to bookmark and share:
+                        This page now has its own dedicated address instead of being hosted under a personal account.
+                        The old link will still bring you here, but going forward this is the URL to bookmark and share:
                     </p>
-                    <div className="flex flex-col gap-3">
+                    <div className="flex flex-col gap-3 mt-1">
                         <div className="flex flex-col gap-1.5 bg-green-500/10 border border-green-500/50 rounded-lg px-3 py-2.5">
                             <div className="text-[10px] font-medium tracking-wide text-green-400/80 uppercase">You were redirected to this new URL</div>
-                            <div className="font-mono text-sm text-white break-all">{newUrl}</div>
+                            <div className="font-mono text-xs text-white break-all">{newUrl}</div>
                         </div>
                         <div className="text-xs text-white/30 break-all line-through">{oldUrl}</div>
                     </div>
