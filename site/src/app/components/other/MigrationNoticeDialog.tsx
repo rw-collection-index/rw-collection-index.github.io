@@ -32,13 +32,26 @@ export function MigrationNoticeDialog() {
         };
     }, [open]);
 
+    // useUrlSync rewrites legacy ?item=&transcriber= links into the real path only after the pearl data loads, debounced;
+    // watch the canonical tag it updates in lockstep to know when the address bar has actually settled, instead of reading it once on mount.
+    const [resolvedPath, setResolvedPath] = useState(() => window.location.pathname);
+    useEffect(() => {
+        if (!open) return;
+        const link = document.querySelector('link[rel="canonical"]');
+        if (!link) return;
+        const sync = () => setResolvedPath(window.location.pathname);
+        const observer = new MutationObserver(sync);
+        observer.observe(link, { attributes: true, attributeFilter: ['href'] });
+        return () => observer.disconnect();
+    }, [open]);
+
     const close = () => setOpen(false);
     useEscapeKey(close, open);
 
     if (!open || !portalRoot) return null;
 
-    const newUrl = window.location.origin + window.location.pathname;
-    const oldUrl = OLD_SITE_URL + window.location.pathname;
+    const newUrl = window.location.origin + resolvedPath;
+    const oldUrl = OLD_SITE_URL + resolvedPath;
 
     return createPortal(
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4"
