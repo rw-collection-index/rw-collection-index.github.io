@@ -14,10 +14,10 @@ export function MigrationNoticeDialog() {
 
     useEffect(() => {
         try {
-            setOpen(true);
             if (localStorage.getItem(SEEN_KEY)) return;
             if (!document.referrer.includes(OLD_ORIGIN)) return;
             localStorage.setItem(SEEN_KEY, 'true');
+            setOpen(true);
         } catch {
         }
     }, []);
